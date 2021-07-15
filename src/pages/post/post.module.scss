@@ -1,1 +1,15 @@
-// TODO
+.postContainer {
+  margin-top: 3rem;
+}
+
+.postContent {
+  margin-top: 4rem;
+
+  & > div + div {
+    margin-top: 3rem;
+  }
+}
+
+.postSection > p {
+  margin-top: 1rem;
+}

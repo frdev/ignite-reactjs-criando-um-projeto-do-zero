@@ -1,1 +1,28 @@
-// TODO
+.headerContainer {
+  height: 5rem;
+}
+
+.headerContent {
+  height: 5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: flex;
+  align-items: center;
+
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    display: block;
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: var(--gray-50);
+
+    span {
+      color: var(--pink-500);
+    }
+  }
+}
